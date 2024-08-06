@@ -50,7 +50,7 @@
      {:else}
      <Avatar initials="?" background="bg-primary-500" />
       {/if}  
-     <h2 class="p-4 text-xl uppercase">Full Stack Svelte</h2>
+     <h2 class="p-4 text-xl uppercase">Accessibility Guide</h2>
      <button on:click={drawerClose} class="ml-10 mr-5">X</button>
      
  </div>
@@ -58,14 +58,9 @@
  
  <nav class="list-nav lg:hidden">
      <ul>
-        <li><a href="/airbnb" class="border-b-2 mx-4 hover:scale-110 uppercase">Airbnb</a></li>
-        <li><a href="/sales" class="mx-4 border-b-2 hover:scale-110 uppercase">Sales Dashboard</a></li>
-        <li><a href="/dynamic-routes" class="mx-4 border-b-2 hover:scale-110 uppercase">Dynamic Routes</a></li>
-        <li><a href="/tutorial" class="mx-4 border-b-2 hover:scale-110 uppercase">Tutorials</a></li>
-         {#if $page.data.session?.user}
-         <li>  <a class="text-xl" on:click={handleSignOut}>Logout</a></li>
-         {:else}
-         <li>  <a class="text-xl" href="/auth/login">Login</a></li>
-         {/if}
+        <li><a href="/todo-list" class="border-b-2 mx-4 hover:scale-110 uppercase">Checklist</a></li>
+        <li><a href="/check-contrast" class="mx-4 border-b-2 hover:scale-110 uppercase">Check Contrast</a></li>
+        <li><a href="/" class="mx-4 border-b-2 hover:scale-110 uppercase">My Projects</a></li>
+        
      </ul>
  </nav>

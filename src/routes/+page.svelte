@@ -20,7 +20,7 @@ import Todo from '../lib/components/Todo.svelte'
 		<h2 class="text-2xl font-bold text-center my-5">Choose a Tool </h2>
 		<div class="flex gap-4 justify-center">
 			<a href="/todo-list" class="btn variant-outline-primary p-20 font-bold text-3xl hover:variant-filled-primary" >Accessibility<br> Checklist</a>
-			<a class="btn variant-outline-primary p-20 font-bold text-3xl hover:variant-filled-primary">Check<br> Contrast</a>
+			<a href="/check-contrast" class="btn variant-outline-primary p-20 font-bold text-3xl hover:variant-filled-primary">Check<br> Contrast</a>
 			<a class="btn variant-outline-primary p-20 font-bold text-3xl hover:variant-filled-primary" >My Projects</a>
 		</div>
 

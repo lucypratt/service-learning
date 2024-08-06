@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { themeStore } from '$lib/stores/themeStore';
+//	import { themeStore } from '$lib/stores/themeStore';
 	import { Avatar } from '@skeletonlabs/skeleton';
 	//import { signOut } from '@auth/sveltekit/client';
 	import { page } from '$app/stores';
@@ -34,7 +34,7 @@
 		<div class="flex gap-2 my-4">
 			<div class="flex items-center px-4"><LightSwitch /></div>
 			
-		<select class="select" bind:value={$themeStore}>
+		<!-- <select class="select" bind:value={$themeStore}>
 				<option value="wintry">Wintry</option>
 				<option value="skeleton">Skeleton</option>
 				<option value="crimson">Crimson</option>
@@ -44,7 +44,7 @@
 				<option value="sahara">Sahara</option>
 				<option value="hamlindigo">Hamlindigo</option>
 		
-			</select>
+			</select> -->
 		
 		</div>
 	</div>				

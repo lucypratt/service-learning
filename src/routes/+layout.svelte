@@ -83,8 +83,8 @@ return new Promise((resolve) => {
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<div class="hidden lg:block">
-					<a href="/" class="mx-4 border-b-2 uppercase hover:scale-110">CHECKLIST</a>
-					<a href="/" class="mx-4 border-b-2 uppercase hover:scale-110">Check Contrast</a>
+					<a href="/todo-list" class="mx-4 border-b-2 uppercase hover:scale-110">CHECKLIST</a>
+					<a href="/check-contrast" class="mx-4 border-b-2 uppercase hover:scale-110">Check Contrast</a>
 					<a href="/" class="mx-4 border-b-2 uppercase hover:scale-110">My Projects</a>
 				</div>
 
