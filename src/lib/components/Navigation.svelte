@@ -45,11 +45,7 @@
  </script>
  
  <div class="w-[100%] flex space-between lg:hidden">
-     {#if $page.data.session?.user}
-     <Avatar src="{$page.data.session?.user?.image ?? ''}" class="w-8 h-8 rounded-full my-auto ml-4 border-solid border-primary-300 border-4"  on:click={handleSignOut}/>
-     {:else}
-     <Avatar initials="?" background="bg-primary-500" />
-      {/if}  
+     
      <h2 class="p-4 text-xl uppercase">Accessibility Guide</h2>
      <button on:click={drawerClose} class="ml-10 mr-5">X</button>
      
@@ -60,7 +56,7 @@
      <ul>
         <li><a href="/todo-list" class="border-b-2 mx-4 hover:scale-110 uppercase">Checklist</a></li>
         <li><a href="/check-contrast" class="mx-4 border-b-2 hover:scale-110 uppercase">Check Contrast</a></li>
-        <li><a href="/" class="mx-4 border-b-2 hover:scale-110 uppercase">My Projects</a></li>
+        <li><a href="/my-projects" class="mx-4 border-b-2 hover:scale-110 uppercase">My Projects</a></li>
         
      </ul>
  </nav>

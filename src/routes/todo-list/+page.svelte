@@ -1,8 +1,23 @@
 <script lang="ts">
-    let todos = [
-        { id: 1, text: 'homework', completed: false },
-        { id: 2, text: 'coding', completed: false }
-    ];
+   let todos = [
+    { id: 1, text: 'Ensure all images have alt text', completed: false },
+    { id: 2, text: 'Provide captions for all multimedia content', completed: false },
+    { id: 3, text: 'Use semantic HTML elements', completed: false },
+    { id: 4, text: 'Ensure sufficient color contrast', completed: false },
+    { id: 5, text: 'Enable keyboard navigation for all interactive elements', completed: false },
+    { id: 6, text: 'Use ARIA roles and landmarks appropriately', completed: false },
+    { id: 7, text: 'Ensure forms are accessible with proper labels and instructions', completed: false },
+    { id: 8, text: 'Implement skip navigation links', completed: false },
+    { id: 9, text: 'Ensure responsive design for different screen sizes', completed: false },
+    { id: 10, text: 'Test accessibility with screen readers', completed: false },
+    { id: 11, text: 'Avoid using automatic content changes without user consent', completed: false },
+    { id: 12, text: 'Ensure all content is accessible and operable through a keyboard interface', completed: false },
+    { id: 13, text: 'Provide clear and consistent navigation', completed: false },
+    { id: 14, text: 'Ensure focus indicators are visible and clear', completed: false },
+    { id: 15, text: 'Test with automated accessibility tools', completed: false },
+    { id: 16, text: 'Regularly review and update accessibility practices', completed: false }
+];
+
 
     let newTodo = '';
     let editingTodo: any = null;
@@ -71,7 +86,7 @@
     }
 </script>
 
-<main class="container mx-auto mt-8">
+<main class="container mx-10 mt-8">
     <div class="flex justify-between">
         <div>
             <div>

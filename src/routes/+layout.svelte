@@ -85,7 +85,7 @@ return new Promise((resolve) => {
 				<div class="hidden lg:block">
 					<a href="/todo-list" class="mx-4 border-b-2 uppercase hover:scale-110">CHECKLIST</a>
 					<a href="/check-contrast" class="mx-4 border-b-2 uppercase hover:scale-110">Check Contrast</a>
-					<a href="/" class="mx-4 border-b-2 uppercase hover:scale-110">My Projects</a>
+					<a href="/my-projects" class="mx-4 border-b-2 uppercase hover:scale-110">My Projects</a>
 				</div>
 
 				<button class="mx-2 hidden align-bottom text-xl lg:block" on:click={drawerOpen}

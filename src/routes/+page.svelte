@@ -21,7 +21,7 @@ import Todo from '../lib/components/Todo.svelte'
 		<div class="flex gap-4 justify-center">
 			<a href="/todo-list" class="btn variant-outline-primary p-20 font-bold text-3xl hover:variant-filled-primary" >Accessibility<br> Checklist</a>
 			<a href="/check-contrast" class="btn variant-outline-primary p-20 font-bold text-3xl hover:variant-filled-primary">Check<br> Contrast</a>
-			<a class="btn variant-outline-primary p-20 font-bold text-3xl hover:variant-filled-primary" >My Projects</a>
+			<a href="/my-projects" class="btn variant-outline-primary p-20 font-bold text-3xl hover:variant-filled-primary" >My Projects</a>
 		</div>
 
 	</div>
